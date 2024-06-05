@@ -1,0 +1,241 @@
+body {
+   background-image: url(pot\ 5.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+li {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.938);
+}
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+h1 {
+    text-decoration: underline;
+    font-size: 40px;
+}
+.intro {
+    font-size: 40px;
+}
+.intro p {
+    color: #333333;
+    margin-bottom: 250px;
+}
+.par img {
+    border-radius: 50%;
+}
+.sidebar {
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.096);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar li {
+    width: 100%;
+    margin: 20px;
+    width: fit-content;
+}
+.sidebar a {
+    width: 100%;
+}
+@media(max-width: 800px){
+    .hideOnMobile{
+        display: none;
+    }
+}
+.container {
+    background: rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+}
+li:hover {
+    overflow: hidden;
+    border-bottom: 3px solid rgba(88, 86, 86, 0.911);
+}
+a:hover {
+    color: rgba(88, 86, 86, 0.911);
+    text-shadow: 1px 1px white, 0 0 20px gray;
+}
+nav li:first-child {
+    margin-right: auto;
+}
+.pot {
+    font-style: italic;
+    font-weight: 800;
+    font-size: larger;
+    padding: 20px;
+    color: white;
+}
+.container {
+    border-radius: 30px 30px 30px 30px;
+    position: relative;
+}
+img {
+    border-radius: 50px 50px 50px 50px;
+    opacity: 1.0;
+}
+.okay {
+    font-style: italic;
+    font-weight: bolder;
+    font-size: large;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 100px;
+    color: rgba(124, 57, 57, 0.733);
+}
+.contact {
+    padding: 50px;
+    }
+    .contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    }
+    input, textarea, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    }
+    button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    }
+.contact p {
+    color: white;
+    font-size: 30px;
+}
+    .foot {
+    background: rgba(0, 0, 0, 0.1);
+  color: black;
+    margin-top: 1px;
+    padding: 1px;
+    display: grid;
+    text-shadow: none;
+    font-style: italic;
+}
+.calculator {
+    background-color: #f2f2f2;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    border: solid 1px #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    margin-top: 40px;
+  }
+  
+  #result{
+      width: 100%;
+      padding: 10px;
+      font-size: 24px;
+      border: none;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3) inset;
+      border-radius: 5px;
+  }
+  
+  .buttons{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px;
+      margin-top: 20px;
+  }
+  
+  button{
+      padding: 10px;
+      font-size: 24px;
+      border: none;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  
+  }
+  
+  button:hover{
+      background-color: #ddd;
+  }
+  
+  .clear{
+      background-color: #ff4136;
+      color: #fff;
+  }
+  
+  .number, .decimal{
+      background-color: #fff;
+      color: #333;
+  
+  }
+  
+  .operator{
+      background-color: #0074d9;
+      color: #fff;
+  }
+  
+  .equals{
+      background-color: #01ff70;
+      grid-row: span 3;
+      color: #fff;
+  }
+.footer {
+  padding: 0px;
+  margin: 0px;
+}
+.icons a {
+    text-decoration: none;
+}
+.icons a:hover {
+    color: blue;
+    text-shadow: none;
+    transition: .5s;
+    border-bottom: none;
+    font-size: 40px;
+}
+.twit a:hover {
+    color: rgb(78, 78, 216);
+    text-shadow: none;
+    transition: .5s;
+    border-bottom: none;
+    font-size: 40px;
+}
+.git a:hover {
+    color: rgb(64, 110, 64);
+    text-shadow: none;
+    transition: .5s;
+    font-size: 40px;
+}
+.insta a:hover {
+    color: rgb(243, 129, 129);
+    text-shadow: none;
+    transition: .5s;
+    font-size: 40px;
+}
+.what a:hover {
+    color: green;
+    text-shadow: none;
+    transition: .5s;
+    font-size: 40px;
+}
+.bottom-bar {
+    text-align: center;
+    color: black;
+    font-weight: 900;
+}
+

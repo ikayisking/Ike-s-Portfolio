@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ike's Portfolio</title>
+    <link rel="stylesheet" href="pot.css">
+    <script src="https://kit.fontawesome.com/1165876da6.js" crossorigin="anonymous"></script>
+    <div class="container">
+         <header>
+              <ul class="sidebar">
+                <li onclick=hideSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                 <li><a href="#home">HOME</a></li>
+                 <li><a href="#about">ABOUT</a></li>
+                 <li><a href="#por" >PROJECT</a></li>
+                 <li><a href="#cont">CONTACT US</a></li>
+              </ul>
+              <ul>
+                <li class="hideOnMobile"><a href="#home" class="nav-head">HOME</a></li>
+                <li class="hideOnMobile"><a href="#about" class="nav-head">ABOUT</a></li>
+                <li class="hideOnMobile"><a href="#por" class="nav-head">PROJECT</a></li>
+                <li class="hideOnMobile"><a href="#cont" class="nav-head">CONTACT US</a></li>
+                <li onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+              </ul>
+         </header>
+    </div>
+<body>
+  <section>
+    <div class="par">
+     <img src="ike 2.jpg.jpg" alt="" width="350px" height="350px" style="float: right;">
+    </div>
+    <div class="intro">     
+      <p class="pot" id="home"><span style="color: black;">welcome to my portfolio!</span> <br>This portfolio contains things about <span style="color: black;">IKENNA</span> <br> Things about his <span style="color: black;">PROJECT</span> <br> And how you can contact <span style="color: black">him.</span></p> 
+    </div>
+  </section><hr>
+<section>
+  <div class="head">
+    <center><h1>ABOUT <span style="color: black;">IKENNA</span></h1></center>
+  </div>
+  <div>
+    <img src="ike 2.jpg.jpg" alt="" width="400px" height="400px" style="float: right;">
+    <div id="about" class="okay">
+     <p>Hello, I am Onyeukwu Ikenna. <br> And this, this is my portfolio.</p><br>
+     <p>I'm an aspiring front end developer <br>Currently studyung computer science <br>In Bells University of Technology, Ogun State.</p>
+     <p>I have knowlege & skills in some programming languages such as <span style="color: black;">HTML</span>, <span style="color: black;">CSS</span>, <span style="color: black;">PYTHON</span>, <span style="color: black;">JAVASCRIPT</span>  <span style="color: rgba(124, 57, 57, 0.733);">and the likes. <br> I would like to further my knowlege in more programming languages as i move further and higher up my education</span></p>
+    </div>
+    </div>
+  </div>
+</section>
+   <section id="por">
+     <div class="project-grid">
+       <!-- Project Cards will be populated dynamically -->
+     </div>
+    </section>
+<section id="cont" class="contact">
+  <div class="contact-form">
+    <h1>MY PROJECTS ARE AS FOLLOWS:</h1>
+    <center><p>Contact <span style="color: brown;">Me!</span></p></center>
+    <form action="#" id="contactForm" method="POST">
+      <input type="text" name="Name" placeholder="Your Name" required>
+      <input type="email" name="Email" placeholder="Your Email" required>
+      <input type="number" name="number" placeholder="Your Number">
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <div class="calculator">
+      <input type="text" id="result" readonly>
+      <div class="buttons">
+          <button class="clear">C</button>
+          <button class="operator">/</button>
+          <button class="operator">*</button>
+          <button class="operator">-</button>
+          <button class="number">7</button>
+          <button class="number">8</button>
+          <button class="number">9</button>
+          <button class="operator">+</button>
+          <button class="number">4</button>
+          <button class="number">5</button>
+          <button class="number">6</button>
+          <button class="equals">=</button>
+          <button class="number">1</button>
+          <button class="number">2</button>
+          <button class="number">3</button>
+          <button class="number">0</button>
+          <button class="decimal">.</button>
+      </div>
+  </div>
+  </div>
+</section>
+<section class="footer">
+  <div class="foot">
+    <center><p>Thank you, for more information contact us @</center>
+      <ul>
+        <li><a href="ikennaonyeukwu4@gmail.com">ikennaonyeukwu4@gmail.com</a></li>
+      </ul>
+      <ul>
+        <li><a href="#">07047529708</a></li>
+      </ul>
+      <center><p>Or Contact us through any of our social media handles:</p></center>
+        <ul>
+          <div class="icons">
+           <li><a href=""><i class="fab fa-facebook"></i></a></li>
+        </div>
+        <div class="twit">
+          <li><a href=""><i class="fab fa-twitter"></i></a></li>
+        </div>
+        <div class="git">
+          <li><a href=""><i class="fab fa-github"></i></a></li>
+        </div>
+        <div class="insta">
+          <li><a href=""><i class="fab fa-instagram"></i></a></li>
+        </div>
+        <div class="what">
+          <li><a href=""><i class="fab fa-whatsapp"></i></a></li>
+        </div>
+        </ul>
+      </div>
+   <div class="bottom-bar">
+    <p>&copy; Copyright 2024, Your company. Ikenna & Co.</p>
+</div>
+  </div>
+</section>
+<script src="pot.js"></script>
+</body>
+</html>
